@@ -12,10 +12,10 @@
     width: 120px;
     display: inline-block;
 }
-.carousel-item {
+.brandSlider .carousel-item {
     height: 450px;
 }
-.carousel-item img.d-block.w-100 {
+.brandSlider .carousel-item img.d-block.w-100 {
     height: 100%;
     object-fit: cover;
 }
@@ -34,3 +34,36 @@
 .carousel-item:nth-child(1){
     background-image: url(image3);
 } */
+.brandSlider .carousel-caption {
+    bottom: auto;  /* to nullify */
+    top: 20%;
+}
+/* ==========  homeheading css ============ */
+.HomeHeading, .video {
+    background-image: url('https://iamrk-js.github.io/bootstrap4/assets/images/lights.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.HomeHeading::before,.video::before {
+    content:'';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.HomeHeading .row {
+    z-index: 10;
+}
+/* ==========  video css ========== */
+.video {
+    background-image: url('https://iamrk-js.github.io/bootstrap4/assets/images/media.jpg');
+}
+
+.footer {
+    background-color: #000;
+    font-size: 18px;
+}
