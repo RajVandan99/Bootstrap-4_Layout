@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ======== css for navbar =========== */
+.appHeader .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    text-transform: uppercase;
+}
+.appHeader .navbar-brand {
+    width: 120px;
+    display: inline-block;
+}
+.carousel-item {
+    height: 450px;
+}
+.carousel-item img.d-block.w-100 {
+    height: 100%;
+    object-fit: cover;
+}
+/* background-image: url() Its very complecated bcoz, more imgs required more img urls */
+/* .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+/* .carousel-item:nth-child(1){
+    background-image: url(image1);
+}
+.carousel-item:nth-child(1){
+    background-image: url(image2);
+}
+.carousel-item:nth-child(1){
+    background-image: url(image3);
+} */
